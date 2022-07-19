@@ -163,6 +163,9 @@ Media quary start here...
     grid-template-columns: repeat(1,1fr);
     
 }
+.tab-btn{
+  display: none;
+}
   
 }
 /* =====================================
@@ -187,5 +190,14 @@ margin-right: 10px;
     grid-template-columns: repeat(2,1fr);
     
 }
+  
+}
+/* =====================================
+Bigscreen Media Quary...
+===================================== */
+@media screen and (min-width:767px){
+  .tab-btn{
+    display: none;
+  }
   
 }
