@@ -83,6 +83,10 @@ color: white;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+#anchor-bgclr{
+  color: white;
+  background-color: orangered;
+}
 .nav-info a{
   width: 100%;
   /*width: 300px;
