@@ -288,7 +288,7 @@ Media quary start here...
 /* =====================================
 Tab Media Quary
 ===================================== */
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:766px) {
   .news{
     display: grid;
     grid-template-columns: repeat(1,1fr);
