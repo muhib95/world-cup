@@ -9,6 +9,48 @@ body{
   background-color: rgb(248, 244, 244);
   
 }
+/* ==================================
+Navigation part...
+================================== */
+.nav-container{
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  margin-bottom: 30px;
+}
+.nav-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.nav-headline h1{
+  color: white;
+}
+.nav-information p{
+  color: white;
+}
+.nav-anchor{
+  border-radius: 5px;
+  padding:15px 25px;
+  background-color: orangered;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.nav-anchor a{
+text-decoration: none;
+color: white;
+}
+.nav-img{
+  display: flex;
+  align-items: center;
+}
+.nav-img img{
+ width: 100%;
+}
 
 /* Middle part.... */
 /* .container{
@@ -186,6 +228,12 @@ display: flex;
 Media quary start here...
 ======================================================== */
 @media screen and (max-width:576px) {
+  .nav-container{
+   
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    
+  }
   .nav-info{
     
     background-color: white;
